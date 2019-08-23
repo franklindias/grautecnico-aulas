@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Aula 3 Grau Técnico</title>
+</head>
+<body>
+    <h3>TÍTULOS</h3>
+    <h1 id="titulo1">Título de nível 1</h1>
+    <h2>Título de nível 2</h2>
+    <h3>Título de nível 3</h3>
+    <h4>Título de nível 4</h4>
+    <h5>Título de nível 5</h5>
+    <h6>Título de nível 6</h6>
+    <hr/>
+    <h3>PARÁGRAFOS</h3>
+
+    <p>Primeiro parágrafo do texto.</p>
+    <p>Segundo parágrafo do texto.</p>
+    <p>Terceiro parágrafo do texto.</p>
+
+    <pre>
+        My Bonnie lies over the ocean.
+        
+        My Bonnie lies over the sea.
+        
+        My Bonnie lies over the ocean.
+        
+        Oh, bring back my Bonnie to me.
+    </pre>
+        
+    <hr/>
+
+    <h3>FORMATAÇÃO DE TEXTO</h3>
+    <p>Texto em negrito com <b>bold</b> e <strong>strong</strong>.</p>
+    <p>Texto em itálico com <i>italics<i> e <em>emphasis</em>.</p>
+    <p>Texto <sup>sobrescrito</sup> e <sub>subscrito</sub>.</p>
+    <p>Texto <ins>inserido</ins> e <del>excluído</del>.</p>
+    <p>Texto <small>pequeno</small> e <mark>destacado</mark>.</p>
+    <p>My favorite color is <del>blue</del> red.</p>
+
+    <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+
+    <hr/>
+    <h3>IMAGENS</h3>
+    <img src="assets/img/avatar.png" alt="Texto alternativo" title="Avatar" />
+    <img src="arquivo_inexistente.jpg" alt="Texto alternativo" title="Outra figura"/>
+    <hr/>
+    <h3>LINKS</h3>
+    <a href="outra.html">Página Local</a><br/>
+    <a target="_blank" href="https://www.google.com.br">Google</a><br/>
+    <a href="#titulo1">Ancora</a>
+    <hr/>   
+    <h3>TABELA simples</h3>
+    <table>
+        <tr>
+            <td>Linha 1, Coluna 1</td>
+            <td>Linha 1, Coluna 2</td>
+        </tr>
+        <tr>
+            <td>Linha 2, Coluna 1</td>
+            <td>Linha 2, Coluna 2</td>
+        </tr>
+        <tr>
+            <td>Linha 3, Coluna 1</td>
+            <td>Linha 3, Coluna 2</td>
+        </tr>
+    </table>
+    <hr/>
+    <h3>TABELA complexa</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Feijão</td>
+                <td>R$ 8,75</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Arroz</td>
+                <td>R$ 4,99</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td></td>
+                <td>R$ 18,73</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr/>
+    <h3>Lista numerada</h3>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <hr/>
+    <h3>Lista simples</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <hr/>
+    <h3>Lista de definição</h3>
+    <dl>
+        <dt>Título 1</dt>
+        <dd>Definição 1</dd>
+        <dt>Título 2</dt>
+        <dd>Definição 2</dd>
+        <dt>Título 3</dt>
+        <dd>Definição 3</dd>
+    </dl>
+
+    <hr/>
+    <h3>Formulários</h3>
+    
+    <form action="salvar_dados.php" method="post">
+        <input type="text" placeholder="Digite aqui"> <br/>
+        <input type="number" placeholder="Digite aqui"> <br/>
+        <input type="color" placeholder="Digite aqui"> <br/>
+
+        <input type="checkbox">Checkbox <br/>
+        <input type="radio">Radio button <br/>
+        <input type="range"> <br/>
+        <select name="" id="">
+            <option value="1">Opção 1</option>
+            <option value="2">Opção 2</option>
+            <option value="3">Opção 3</option>
+        </select><br/>
+        <textarea name="message" rows="10" cols="30">
+        The cat was playing in the garden.
+        </textarea><br/>
+        <input type="submit" value="Enviar">
+        <button>Click me</button>
+    </form>
+
+    <hr/>
+    <h3>ÁUDIO</h3>
+
+    <audio controls src="musica.mp3" >
+        Seu browser não suporta áudio.
+    </audio> 
+
+    <audio controls src="musica.mp3" >
+        <source src="musica.ogg" type="audio/ogg">
+        <source src="musica.mp3" type="audio/mpeg">
+    </audio>
+    <hr/>
+    <h3>VÍDEO</h3>
+    <video src="video.mp4" width="640" height="480" controls>
+        Seu browser não suporta vídeo HTML5.
+    </video>
+    <video width="640" height="480" controls>
+        <source src="vdeio.webm" type="video/webm">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+    <hr/>
+    <h3>DIV</h3>
+    <input type="text" value="input 1">
+    <input type="text" value="input 2">
+    <div><input type="text" value="input 3"></div>
+    <div><input type="text" value="input 4"></div>
+
+    <hr/>
+    <h3>SPAN</h3>
+    <p>Este é um texto com um <span>trecho em destaque</span>.</p>
+    <p>
+        Este é um texto com um <span style="background: #1abc9c; border-radius:5px; padding:5px">trecho em destaque</span>.
+    </p>
+
+
+    <h2>Próxima aula entraraemos no HTML SEMÂNTICO</h2>
+</body>
+</html>
