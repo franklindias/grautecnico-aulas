@@ -15,4 +15,6 @@
 | Pedro Paulo  | Empreendedorismo  |  12:00 |
 
 8. Adicionar imagem no menu superior do lado esquerdo e colocar links para o lado direito
+9. Nos links do menu principal, colocar âncoras para as sessões do site. (quando clicar no link a página descer para a sesssão específica)
+10. Criar no meu superior, um link extra para uma nova página dentro do seu site.
 
